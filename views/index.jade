@@ -4,7 +4,8 @@ html
     title undefined
     link(rel='stylesheet', href='/css/style.css' + cachebust)
 
-    script(src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML')
+    //script(src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML')
+    script(src='/js/vendor/asciimathml/asciimathml.js')
 
     if reload
       script(src='/socket.io/socket.io.js')
